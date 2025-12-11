@@ -12,24 +12,24 @@ Se te proporciona una estructura **HTML** y estilos **CSS** básicos para una ga
 
 #### Estructura Inicial
 
-**HTML** (_index.html_) -> _Se modifican URL de placeholders, para correcta visualización_
-**CSS** (_style.css_)
+- **HTML** (_index.html_) -> 💡*Se modifican URL de placeholders, para correcta visualización*
+- **CSS** (_style.css_)
 
 #### Instrucciones de JavaScript (app.js):
 
-**1. Selección de Elementos**:
+1. **Selección de Elementos**:
 
 - Selecciona el elemento de la imagen principal (`<img>` con `id="imagen-principal"`).
 
 - Selecciona todos los elementos de las imágenes _thumbnail_ (las que tienen la clase `.thumbnail`). Esto te dará una colección de elementos o `NodeList`.
 
-**2. Añadir Event Listeners a los Thumbnails**:
+2. **Añadir Event Listeners a los Thumbnails**:
 
 - Itera sobre la colección de thumbnails (puedes usar un bucle `forEach`).
 
 - A cada thumbnail, añádele un `.addEventListener` que escuche el evento `'click'`.
 
-**3. Definir la Lógica del Evento**:
+3. **Definir la Lógica del Evento**:
 
 - Dentro de la función que se ejecuta al hacer clic, haz lo siguiente:
 
@@ -39,7 +39,7 @@ Se te proporciona una estructura **HTML** y estilos **CSS** básicos para una ga
 
 - Obtén el texto alternativo (`alt`) del thumbnail clickeado. Este texto lo usarás como pie de foto.
 
-**4. Crear y Añadir el Pie de Foto**:
+4. **Crear y Añadir el Pie de Foto**:
 
 **Importante**: Primero, busca si ya existe un pie de foto anterior y, si es así, **elimínalo** para evitar que se acumulen.
 
@@ -65,6 +65,6 @@ Finalmente, usa `appendChild()` para añadir este nuevo párrafo al contenedor d
 
 ### Entrega:
 
-El trabajo deberá ser entregado a través de un [repositorio público](https://github.com/Cuackzoide/E3_M4-Galeria_img_dom/) en GitHub que contenga los tres archivos (**_index.html_, _style.css_, _app.js_**).
+El trabajo deberá ser entregado a través de un [repositorio público](https://github.com/Cuackzoide/E3_M4-Galeria_img_dom) en GitHub que contenga los tres archivos (**_index.html_**, **_style.css_**, **_app.js_**).
 
-_Se añade estructura de carpetas assets para mejor organización del codigo_
+💡 _Se añade estructura de carpetas assets para mejor organización del codigo_
